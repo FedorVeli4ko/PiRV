@@ -6,6 +6,10 @@
 #include <boost/thread.hpp>
 #include <thread>
 
+//  Величко Фёдор Тимофеевич, ИУ1-41Б
+//  ВАРИАНТ №2 
+//  Лабораторная работа №1, задача №1
+
 bool is_prime(int n) {      //проверка числа простое/нет
     if (n < 2) return false;
     if (n == 2) return true;
@@ -74,7 +78,10 @@ int main() {
         std::cout << "Ускорение: " << (double)ms_single / ms_multi << "\n\n";
     }
 
-    //сколько всего потоков одновременно возможно на компе 
+    //  |
+    //  |
+    //  |     сколько всего потоков одновременно возможно на моём компе
+    //  V           
     //std::cout << std::thread::hardware_concurrency();
 
     return 0;

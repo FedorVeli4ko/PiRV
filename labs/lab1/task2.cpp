@@ -5,6 +5,10 @@
 #include <atomic>
 #include <boost/thread.hpp>
 
+//  Величко Фёдор Тимофеевич, ИУ1-41Б
+//  ВАРИАНТ №2 
+//  Лабораторная работа №1, задача №1
+
 void sum_array_unsafe(const std::vector<int>& arr, long long& result, int start, int end) {
     for (int i = start; i < end; ++i) {
         result += arr[i];
